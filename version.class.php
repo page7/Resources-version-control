@@ -63,7 +63,7 @@ class version
         foreach ($all as $file => $ver)
         {
             $new = self::refresh($file, '');
-            $report = array('file'=>$file, 'oldver'=>$ver, 'newver'=>$new)
+            $report = array('file'=>$file, 'oldver'=>$ver, 'newver'=>$new);
         }
         return $report;
     }
