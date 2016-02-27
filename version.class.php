@@ -42,7 +42,7 @@ class version
         preg_match('/\/\*.*?v([0-9.]+).*?\*\//is', $content, $v);
 
         if (!$v || !$v[1])
-            $version = date('Ymd');
+            $version = substr(md5($content), 0, 8);
         else
             $version = $v[1];
 
