@@ -14,13 +14,13 @@ class version
 {
     // specify resource's path by file extension
     static protected $paths = array(
-        'png'   => RESOURCES_URL . 'img/',
-        'gif'   => RESOURCES_URL . 'img/',
-        'jpg'   => RESOURCES_URL . 'img/',
-        'jpeg'  => RESOURCES_URL . 'img/',
-        'js'    => RESOURCES_URL . 'js/',
-        'css'   => RESOURCES_URL . 'css/',
-        '*'     => RESOURCES_URL . 'file/',
+        'png'   => '/res/img/',
+        'gif'   => '/res/img/',
+        'jpg'   => '/res/img/',
+        'jpeg'  => '/res/img/',
+        'js'    => '/res/js/',
+        'css'   => '/res/css/',
+        '*'     => '/res/file/',
     );
 
 
